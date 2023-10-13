@@ -14,6 +14,8 @@ esbuild.build({
     'window.IS_PRODUCTION': 'true',
   },
   minify: true,
+  treeShaking: true,
+  sourcemap: false,
 })
 
 console.log("build complete");
